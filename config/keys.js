@@ -1,4 +1,5 @@
 module.exports = {
+  //mongoURI: "mongodb://DEVELOPER:DEV1234@devconnector"
   mongoURI:
-    "mongodb://DEV_CONNECT:DEV_CONNECT@devconnector-7dd46.mongodb.net:27017"
+    "mongodb+srv://DEVELOPER:DEV1234@devconnector-7dd46.mongodb.net/test?retryWrites=true"
 };

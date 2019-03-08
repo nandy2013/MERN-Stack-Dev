@@ -6,8 +6,9 @@ const app = express();
 //DB Config
 const db = require("./config/keys").mongoURI;
 
-//Connect to MongoDB
+//Connect to  MongoDB
 mongoose
+  //.connect("mongodb://localhost/test", { useNewUrlParser: true })
   .connect(db, { useNewUrlParser: true })
   //.connect("localhost/DEV_CONNECT", { useNewUrlParser: true })
   .then(() => console.log("MongoDBConnected"))
